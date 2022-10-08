@@ -1,4 +1,4 @@
-package org.pixelexperience.ota.model;
+package org.lessaosp.ota.model;
 
 public class MaintainerInfo {
     private String name;

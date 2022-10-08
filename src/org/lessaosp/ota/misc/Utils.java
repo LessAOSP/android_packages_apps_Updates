@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.lessaosp.ota.misc;
 
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
@@ -34,12 +34,12 @@ import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.pixelexperience.ota.controller.UpdaterService;
-import org.pixelexperience.ota.model.MaintainerInfo;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateBaseInfo;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.lessaosp.ota.controller.UpdaterService;
+import org.lessaosp.ota.model.MaintainerInfo;
+import org.lessaosp.ota.model.Update;
+import org.lessaosp.ota.model.UpdateBaseInfo;
+import org.lessaosp.ota.model.UpdateInfo;
+import org.lessaosp.ota.model.UpdateStatus;
 
 import java.io.BufferedReader;
 import java.io.File;

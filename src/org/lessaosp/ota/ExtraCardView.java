@@ -1,4 +1,4 @@
-package org.pixelexperience.ota;
+package org.lessaosp.ota;
 
 import android.content.Context;
 import android.content.res.TypedArray;

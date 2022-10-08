@@ -14,25 +14,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.misc;
+package org.lessaosp.ota.misc;
 
 public final class Constants {
     public static final String AB_PAYLOAD_BIN_PATH = "payload.bin";
     public static final String AB_PAYLOAD_PROPERTIES_PATH = "payload_properties.txt";
     public static final String PREF_MOBILE_DATA_WARNING = "pref_mobile_data_warning";
     public static final String UNCRYPT_FILE_EXT = ".uncrypt";
-    public static final String PROP_BUILD_DATE = "org.pixelexperience.build_date_utc";
-    public static final String PROP_BUILD_TYPE = "org.pixelexperience.build_type";
+    public static final String PROP_BUILD_DATE = "org.lessaosp.build_date_utc";
+    public static final String PROP_BUILD_TYPE = "org.lessaosp.build_type";
     public static final String PROP_RECOVERY_UPDATE = "persist.sys.recovery_update";
     public static final String PREF_CURRENT_PERSISTENT_STATUS = "current_persistent_status";
     public static final String PREF_INSTALLING_AB_ID = "installing_ab_id";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "org.pixelexperience.device";
-    static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
-    static final String OTA_URL = "https://download.pixelexperience.org/ota_v5/%s/%s";
-    static final String OTA_CI_URL = "https://download.pixelexperience.org/ota_ci/%s/%s";
+    static final String PROP_DEVICE = "org.lessaosp.device";
+    static final String PROP_BUILD_VERSION = "org.lessaosp.version";
+    static final String OTA_URL = "https://raw.githubusercontent.com/LessAOSP/official_devices/sailboat/builds/%s.json";
     static final String MAINTAINER_URL = "https://download.pixelexperience.org/team/%s";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://download.pixelexperience.org/changelog/%s/%s";
-    static final String EXPORT_PATH = "PixelExperience-Updates/";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Lighthouse-OS/official_devices/sailboat/changelogs/%s/%s.txt";
+    static final String EXPORT_PATH = "LessAOSP-Updates/";
 }

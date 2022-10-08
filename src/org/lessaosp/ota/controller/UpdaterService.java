@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota.controller;
+package org.lessaosp.ota.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -31,14 +31,14 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.pixelexperience.ota.R;
-import org.pixelexperience.ota.UpdaterReceiver;
-import org.pixelexperience.ota.UpdatesActivity;
-import org.pixelexperience.ota.UpdatesCheckReceiver;
-import org.pixelexperience.ota.misc.Utils;
-import org.pixelexperience.ota.model.Update;
-import org.pixelexperience.ota.model.UpdateInfo;
-import org.pixelexperience.ota.model.UpdateStatus;
+import org.lessaosp.ota.R;
+import org.lessaosp.ota.UpdaterReceiver;
+import org.lessaosp.ota.UpdatesActivity;
+import org.lessaosp.ota.UpdatesCheckReceiver;
+import org.lessaosp.ota.misc.Utils;
+import org.lessaosp.ota.model.Update;
+import org.lessaosp.ota.model.UpdateInfo;
+import org.lessaosp.ota.model.UpdateStatus;
 
 import java.text.NumberFormat;
 

@@ -14,12 +14,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.pixelexperience.ota;
+package org.lessaosp.ota.model;
 
-import androidx.appcompat.app.AppCompatActivity;
+import java.io.File;
 
-public abstract class UpdatesListActivity extends AppCompatActivity {
-    public abstract void showSnackbar(int stringId, int duration);
+public interface UpdateInfo extends UpdateBaseInfo {
+    UpdateStatus getStatus();
 
-    public abstract void showSnackbar(String text, int duration);
+    File getFile();
+
+    long getFileSize();
 }
